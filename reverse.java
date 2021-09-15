@@ -4,10 +4,19 @@ import java.io.InputStreamReader;
 import java.lang.*;
 
 class revMethods{
-     String strRev(String val){
-        System.out.println("val is "+val.charAt(0)+val.);
-        return null;
+     StringBuffer strRev(String val){
+         StringBuffer returnVal = new StringBuffer();
+         for(int i = (val.length()-1); i >=0; i--){
+            returnVal =  returnVal.append(val.charAt(i));
+         }
+        
+        return returnVal;
     }
+
+//     StringBuffer strRevM1(String val){
+//         StringBuffer strRev= new StringBuffer();
+//         for(int i = 0; )
+//     }
 
 }
 
@@ -17,7 +26,8 @@ class reverse{
         System.out.println("Enter the string to be converted..");
         String val = br.readLine();
         revMethods rm = new revMethods();
-        rm.strRev(val);
+        System.out.println(rm.strRev(val));
+    
 
     }
 }
