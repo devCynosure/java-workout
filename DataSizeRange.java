@@ -11,7 +11,7 @@ class DataSizeRange{
 		System.out.println("Minimum Byte value is : "+Byte.MIN_VALUE);
 		System.out.println("Maximum Byte value is : "+Byte.MAX_VALUE);
 		System.out.println("Byte Size is : "+ Byte.BYTES);
-
+		//still check other also
 
 		//System.out.println("Find size of String");
 		//System.out.println("Minimum String value is : "+String.MIN_VALUE);
